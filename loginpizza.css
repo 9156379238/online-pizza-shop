@@ -1,0 +1,74 @@
+body{
+	background-image: url(Melhor_Pizzaria_Londrina_Borelluccio11.jpg);
+	height: 100vh;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+
+}
+
+.login-page{
+	width: 360px;
+	padding: 10% 0,0;
+	margin: auto;
+
+}
+
+.form
+{
+	position: relative;
+	z-index: 1;
+	background: none; /*rgba(7, 40, 195, 0.8);*/
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form{
+
+}
+.form h1{
+	color: rgb(59, 252, 10);
+}
+.form input{
+	font-family: "roboto",sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 12px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.form button{
+	font-family: "roboto",sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 20px;
+	 cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+	background: #43A047;
+}
+.form .message {
+	margin: 15px 0 0;
+	color: white;
+	font-size: 16px;
+
+}
+.form .message a{
+	color: blue;
+	text-decoration: none;
+}
